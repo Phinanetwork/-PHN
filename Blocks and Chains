@@ -1,0 +1,14 @@
+The term "blockchain" comes from the way data is structured. Information is grouped into blocks, and each block is linked to the previous one in a chronological order, forming a chain.
+
+Block: A container that holds a batch of recent transactions. Each block includes a timestamp, transaction data, and a cryptographic hash of the previous block.
+
+Chain: The sequence of blocks, linked together using cryptographic hashes. This linking creates a tamper-evident record, as any change to a previous block would alter its hash and invalidate all subsequent blocks.
+
+Imagine a series of numbered boxes. Each box contains information (transactions) and a special code (hash) that is based on the contents of the previous box. If you change the contents of any box, the code on that box and all the boxes after it will also change, making the alteration obvious.
+Cryptographic Hash
+
+A cryptographic hash is a unique fingerprint of a block's data. It's a one-way function, meaning that it's easy to compute the hash from the data, but virtually impossible to derive the original data from the hash.
+
+Purpose: Hashes ensure the integrity of the blockchain. If any data within a block is altered, the hash of that block will change, immediately signaling that the block has been tampered with.
+
+Example: Consider the simple text "Hello World". A SHA-256 hash of this text might be "b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9". Even a tiny change to the text, like changing "World" to "world", will result in a completely different hash.
