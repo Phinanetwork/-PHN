@@ -1,0 +1,53 @@
+Public blockchains are open and permissionless, meaning that anyone can join the network, participate in the consensus process, and view the blockchain data.
+
+Examples: Bitcoin and Ethereum are the most well-known examples of public blockchains.
+
+Characteristics:
+
+Open to all: Anyone can join and participate.
+
+Decentralized: No single entity controls the network.
+
+Transparent: All transactions are publicly visible.
+
+Secure: Protected by cryptographic algorithms and a distributed consensus mechanism.
+
+Private Blockchains
+
+Private blockchains are permissioned, meaning that access to the network is restricted to authorized participants. They are typically used by organizations that need more control over their data and who can participate in the network.
+
+Examples: Hyperledger Fabric and Corda are popular platforms for building private blockchains.
+
+Characteristics:
+
+Permissioned: Access is restricted to authorized participants.
+
+Centralized (to some extent): A single organization or consortium may control the network.
+
+Less transparent: Transaction data may be visible only to authorized participants.
+
+Faster transaction speeds: Due to the smaller number of participants and the controlled environment.
+
+Consortium Blockchains
+
+Consortium blockchains are a hybrid of public and private blockchains. They are permissioned, but the network is controlled by a group of organizations rather than a single entity.
+
+Examples: Many supply chain and financial services applications use consortium blockchains.
+
+Characteristics:
+
+Permissioned: Access is restricted to a group of organizations.
+
+Decentralized (within the consortium): Control is distributed among the participating organizations.
+
+Transparency (within the consortium): Transaction data may be visible to all members of the consortium.
+
+Improved efficiency: Compared to public blockchains, consortium blockchains can offer faster transaction speeds and lower costs.
+
+Consensus Mechanisms
+
+A consensus mechanism is a fault-tolerant mechanism that is used in computer and blockchain systems to achieve the necessary agreement on a single data value or a single state of the network among distributed processes or multi-agent systems, such as with cryptocurrencies. Since Phina Chain's consensus mechanism will be covered in detail in Module 2, we will only briefly introduce the concept here.
+
+Proof-of-Work (PoW): Used by Bitcoin, PoW requires participants (miners) to solve complex computational puzzles to validate transactions and create new blocks. The first miner to solve the puzzle gets to add the new block to the blockchain and is rewarded with cryptocurrency.
+
+Proof-of-Stake (PoS): Used by many modern blockchains, including some versions of Ethereum, PoS selects validators based on the number of tokens they hold and are willing to "stake" as collateral. Validators are responsible for validating transactions and creating new blocks, and they are rewarded with transaction fees.
